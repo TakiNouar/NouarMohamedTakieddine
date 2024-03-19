@@ -1,0 +1,90 @@
+html {
+    height: 100%;
+}
+body {
+    height: 90%;
+    background-image: linear-gradient(to bottom right, #05001f, #000000);
+}
+.holder {
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.PF {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 150px;
+}
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    color: rgb(104, 104, 104);
+}
+.name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    color: rgb(104, 104, 104);
+}
+.links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pf {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+.rotatePF {
+    animation: rotate 0.3s ease forwards;
+}
+
+.pf:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.link {
+    margin: 15px;
+    font-size: 50px;
+}
+.link:hover {
+    transform: scale(1.2);
+}
+.fa-instagram:active {
+    color: orangered;
+}
+.fa-youtube:active {
+    color: red;
+}
+.fa-itch-io:active {
+    color: #fa5c5c;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(20deg);
+    }
+    50% {
+        transform: rotate(-20deg);
+    }
+    75% {
+        transform: rotate(20deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
